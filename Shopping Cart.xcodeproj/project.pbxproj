@@ -14,6 +14,9 @@
 		4B5DC9D01E7C256D00481FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5DC9CE1E7C256D00481FE8 /* LaunchScreen.storyboard */; };
 		4B5DC9DB1E7C256F00481FE8 /* Shopping_CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DC9DA1E7C256F00481FE8 /* Shopping_CartTests.swift */; };
 		4B5DC9E61E7C256F00481FE8 /* Shopping_CartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DC9E51E7C256F00481FE8 /* Shopping_CartUITests.swift */; };
+		4B5DC9F41E7C2A4C00481FE8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DC9F31E7C2A4C00481FE8 /* Product.swift */; };
+		4B5DC9F81E7C36CA00481FE8 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DC9F71E7C36CA00481FE8 /* Cart.swift */; };
+		4B5DC9FA1E7C52B500481FE8 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5DC9F91E7C52B500481FE8 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		4B5DC9E11E7C256F00481FE8 /* Shopping CartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping CartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5DC9E51E7C256F00481FE8 /* Shopping_CartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_CartUITests.swift; sourceTree = "<group>"; };
 		4B5DC9E71E7C256F00481FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5DC9F31E7C2A4C00481FE8 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4B5DC9F71E7C36CA00481FE8 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cart.swift; path = ../Cart.swift; sourceTree = "<group>"; };
+		4B5DC9F91E7C52B500481FE8 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		4B5DC9C41E7C256D00481FE8 /* Shopping Cart */ = {
 			isa = PBXGroup;
 			children = (
+				4B5DC9F71E7C36CA00481FE8 /* Cart.swift */,
 				4B5DC9C51E7C256D00481FE8 /* AppDelegate.swift */,
 				4B5DC9C71E7C256D00481FE8 /* ViewController.swift */,
 				4B5DC9C91E7C256D00481FE8 /* Main.storyboard */,
 				4B5DC9CC1E7C256D00481FE8 /* Assets.xcassets */,
 				4B5DC9CE1E7C256D00481FE8 /* LaunchScreen.storyboard */,
 				4B5DC9D11E7C256D00481FE8 /* Info.plist */,
+				4B5DC9F31E7C2A4C00481FE8 /* Product.swift */,
+				4B5DC9F91E7C52B500481FE8 /* ModalViewController.swift */,
 			);
 			path = "Shopping Cart";
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5DC9C81E7C256D00481FE8 /* ViewController.swift in Sources */,
+				4B5DC9FA1E7C52B500481FE8 /* ModalViewController.swift in Sources */,
 				4B5DC9C61E7C256D00481FE8 /* AppDelegate.swift in Sources */,
+				4B5DC9F41E7C2A4C00481FE8 /* Product.swift in Sources */,
+				4B5DC9F81E7C36CA00481FE8 /* Cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
